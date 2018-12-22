@@ -10,7 +10,7 @@
  *              typeahead.js <https://twitter.github.io/typeahead.js/>
  *              JQL.js <https://github.com/earthchie/JQL.js>
  **/
-
+$ = jQuery; // to be compatible with non $ jQuery (CMS)
 $.Thailand = function (options) {
     'use strict';
 
